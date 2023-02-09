@@ -2,7 +2,7 @@
 
 ## Description
 
-This chip connects 1 of 8 digital inputs to a single output. When Select = 0 (default), the output is disabled (0). The LED output (PWM) is used for diagnostic purposes.
+This chip connects 1 of 8 analog inputs to a single output. When Select = 0 (default), the output is disabled (0). The LED output (PWM) is used for diagnostic purposes.
 
 ![image](https://user-images.githubusercontent.com/63488701/217681693-d5dd3b26-01c5-478c-a3de-f72dfa91840f.png)
 
