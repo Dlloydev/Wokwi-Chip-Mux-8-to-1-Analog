@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "name": "Mux 8:1 Analog",
+  "author": "dlloydev",
+  "license": "MIT",
+  "docs": "https://github.com/Dlloydev/Wokwi-Chip-Mux-8-to-1-Analog/blob/main/docs/README.md",
+  "pins": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8",
+    "LED",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "OUT"  ],
+  "controls": [
+    {
+      "id": "Select",
+      "label": "Select",
+      "type": "range",
+      "min": 0,
+      "max": 8,
+      "step": 1
+    }
+  ]
+}
