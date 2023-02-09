@@ -1,4 +1,4 @@
-# Wokwi-Chip-Mux-8-to-1-Digital
+# Wokwi-Chip-Mux-8-to-1-Analog
 
 ## Description
 
