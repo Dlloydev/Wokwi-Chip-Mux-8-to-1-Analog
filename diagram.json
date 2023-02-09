@@ -121,5 +121,5 @@
     [ "pot8:SIG", "mux-8-to-1-analog1:A8", "gray", [ "h28.8", "v-37.6" ] ],
     [ "mux-8-to-1-analog1:LED", "r2:1", "green", [ "v0" ] ]
   ],
-  "dependencies": { "chip-mux-8-to-1-analog": "github:Dlloydev/Wokwi-Chip-Mux-8-to-1-Analog@1.0.0" }
+  "dependencies": { "chip-mux-8-to-1-analog": "github:Dlloydev/Wokwi-Chip-Mux-8-to-1-Analog@1.0.1" }
 }

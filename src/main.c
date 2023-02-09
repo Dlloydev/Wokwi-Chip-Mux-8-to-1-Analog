@@ -58,7 +58,8 @@ static void chip_timer_event(void *user_data) {
   else if (chip->Select == 2) chip->adcValue = pin_adc_read(chip->pin_A2);
   else if (chip->Select == 1) chip->adcValue = pin_adc_read(chip->pin_A1);
   else chip->adcValue = 0;
-
+  pin_dac_write(chip->pin_OUT, chip->adcValue);
+  
   if (chip->led < chip->adcValue * 10) pin_write(chip->pin_LED, 1);
   else pin_write(chip->pin_LED, 0);
 
